@@ -3,9 +3,9 @@
 		import java.util.Scanner;
 
 		public class JDBCTransactionDemo {
-		    static final String URL = "jdbc:mysql://localhost:3306/studentdb";
+		    static final String URL = "jdbc:mysql://localhost:3306/student";
 		    static final String USER = "root";
-		    static final String PASS = "yourpassword"; // change this
+		    static final String PASS = "root"; // change this
 
 		    public static void main(String[] args) {
 		        Scanner sc = new Scanner(System.in);
