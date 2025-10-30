@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Session Tracking Example</title>
+</head>
+<body>
+<h2>Welcome! Please enter your name:</h2>
+<form action="CookieServlet" method="post">
+    Name: <input type="text" name="username">
+    <input type="submit" value="Set Cookie">
+</form>
+
+<br><br>
+
+<form action="SessionServlet" method="post">
+    Name: <input type="text" name="username">
+    <input type="submit" value="Set Session">
+</form>
+</body>
+</html>
