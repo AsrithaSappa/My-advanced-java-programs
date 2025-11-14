@@ -2,9 +2,12 @@ package controller;
 
 import java.io.IOException;
 import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
 import model.user;
 
+
+@WebServlet("HelloServlet")
 public class HelloServlet extends HttpServlet {
 
     @Override
